@@ -23,60 +23,67 @@
     }
     .body{
       background-color:  hsl(212, 45%, 89%);
-      height: 100dvh;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      padding: 1.5rem;
     }
     .card{
       background-color: hsl(0, 0%, 100%);
       display: flex;
       flex-direction: column;
-      width: 20dvw;
-      height: 80dvh;
-      padding: 8px;
-      border-radius: 24px;
+      min-width: 15.625rem;
+      width: 20vw;
+      height: 70vh;
+      padding: 1rem 1rem 1rem 1rem;
+      box-shadow: 0 0.25rem 1.5rem rgba(0,0,0,0.07);
+      border-radius: 1.5rem;
     }
     .image{
+      aspect-ratio: 1/1;
+      width: 100%;
       display: flex;
-      height: 65%;
+      /* height: 65%; */
       background-image: url('./images/image-qr-code.png');
       background-size: cover;
       background-position: center;
-      border-radius: 16px;
+      border-radius: 1rem;
     }
     .text{
       display: flex;
       height: 35%;
       flex-direction: column;
+      align-items: center;
     }
     .txt1{
       font-family: 'Outfit', sans-serif;
-      font-size: 20px;
+      font-size: 1.2rem;
       font-weight: 700;
       color: hsl(218, 44%, 22%);
       text-align: center;
-      margin-left: 8px;
-      margin-right: 8px;
+      margin-left: 1rem;
+      margin-right: 1rem;
       margin-bottom: 0;
       padding: 0;
     }
     .txt2{
       font-family: "Outfit", sans-serif;
-      font-size: 15px;
+      font-size: .9rem;
       font-weight: 400;
       color: hsl(220, 15%, 55%);
       text-align: center;
       line-height: 1.5;
       margin-left: 8px;
       margin-right: 8px;
-      margin-bottom: 16gipx;
+      margin-bottom: 16px;
+      padding: 0 0.5rem;
     }
     .attribution{
-      margin-top: 16px;
+      margin-top: 1rem;
       font-family: "Outfit", sans-serif;
-      font-size: 11px;
+      font-size: 0.75rem;
       color: hsl(228, 45%, 44%);
       text-align: center;
     }
